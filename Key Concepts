@@ -42,17 +42,13 @@ the, is, and
 Example:  
 running → run (lemma)
 
----
-
-## 🏷️ POS Tagging
+🏷️ POS Tagging
 Assigning grammar roles:  
 "She eats apple"  
 She → noun  
 eats → verb  
 
----
-
-## 🏢 Named Entity Recognition (NER)
+🏢 Named Entity Recognition (NER)
 Identifies entities:  
 - Person  
 - Location  
@@ -62,80 +58,56 @@ Example:
 "Rupesh lives in Indiana"  
 → Rupesh (Person), Indiana (Location)
 
----
-
-## 🔗 Coreference Resolution
+🔗 Coreference Resolution
 Finding what pronouns refer to  
 "Alice went home. She slept."  
 → She = Alice  
 
----
-
-## 📊 Language Models
+📊 Language Models
 Predict next word in a sentence  
 
 Example:  
 "I love eating ___" → pizza  
 
----
-
-## 🔢 N-grams
+🔢 N-grams
 Sequence of words  
 - Unigram → 1 word  
 - Bigram → 2 words  
 - Trigram → 3 words  
 
----
-
-## 📉 Perplexity
+📉 Perplexity
 Measures model performance  
 - Low perplexity = good model  
 - High perplexity = bad model  
 
----
-
-## 🔢 Word Embeddings
+🔢 Word Embeddings
 Convert words into numbers (vectors)  
 
 Example:  
 king - man + woman ≈ queen  
 
----
-
-## 🔄 Word2Vec Models
+🔄 Word2Vec Models
 - **CBOW** → Context → predict word  
 - **Skip-gram** → Word → predict context  
 
----
-
-## 🧠 Distributional Semantics
+🧠 Distributional Semantics
 Words used in similar context have similar meanings  
 
----
-
-## 🔁 Static vs Contextual Embeddings
+🔁 Static vs Contextual Embeddings
 - Static → same meaning always (Word2Vec)  
 - Contextual → meaning depends on sentence (BERT)  
 
----
-
-## 🤖 Transformers
+🤖 Transformers
 Modern NLP models using attention mechanism  
 
----
-
-## 🎯 BERT vs GPT
+🎯 BERT vs GPT
 - **BERT** → Reads both directions (understanding)  
 - **GPT** → Left to right (generation)  
 
----
-
-## 📚 Pretraining
+📚 Pretraining
 Model trained on large data, then fine-tuned for specific tasks  
 
----
-
-## 🚀 Summary
+🚀 Summary
 - NLP processes human language  
 - Pipeline prepares text for models  
 - Models learn patterns and meaning  
