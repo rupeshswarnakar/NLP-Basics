@@ -1,28 +1,22 @@
-# 🧠 NLP Core Concepts (Quick Revision)
+🧠 NLP Core Concepts (Quick Revision)
 
-## 📌 What is NLP?
+📌 What is NLP?
 Natural Language Processing (NLP) is a field of AI that enables computers to understand, interpret, and generate human language.
 
----
-
-## ❗ Challenges in NLP
+❗ Challenges in NLP
 - **Ambiguity** → Same sentence can have multiple meanings  
 - **Sparsity** → Many sentences are unseen  
 - **Variation** → Same meaning, different wording  
 - **Context dependency** → Meaning depends on situation  
 
----
-
-## 🧩 Levels of NLP
+🧩 Levels of NLP
 1. **Phonetics** → Sound  
 2. **Morphology** → Word formation  
 3. **Syntax** → Grammar structure  
 4. **Semantics** → Meaning  
 5. **Discourse** → Context across sentences  
 
----
-
-## 🔄 NLP Pipeline
+🔄 NLP Pipeline
 1. Sentence Segmentation  
 2. Tokenization  
 3. Stopword Removal  
@@ -32,22 +26,16 @@ Natural Language Processing (NLP) is a field of AI that enables computers to und
 7. Named Entity Recognition (NER)  
 8. Coreference Resolution  
 
----
-
-## 🔤 Tokenization
+🔤 Tokenization
 Splitting text into words  
 Example:  
 "I love NLP" → ["I", "love", "NLP"]
 
----
-
-## 🧹 Stopword Removal
+🧹 Stopword Removal
 Removing common words like:  
 the, is, and
 
----
-
-## ✂️ Stemming vs Lemmatization
+✂️ Stemming vs Lemmatization
 - **Stemming** → Cuts word (may be incorrect)  
 - **Lemmatization** → Uses dictionary (correct form)  
 
