@@ -100,7 +100,6 @@ king - man + woman ≈ queen
 - Transformers use attention
 
 # MCQ
-```
 Q1. What is the main goal of NLP?
 
 A. Process images
@@ -139,4 +138,42 @@ A. Removing words
 B. Assigning random values
 C. Representing words as dense vectors capturing meaning
 D. Counting frequencies
-```
+
+Q6. What does cosine similarity measure in embeddings?
+
+A. Length of vector
+B. Distance in vocabulary
+C. Similarity between word meanings
+D. Number of tokens
+
+
+Q7. What is the purpose of softmax?
+
+A. Normalize outputs into probabilities
+B. Reduce dimensions
+C. Remove noise
+D. Increase learning rate
+
+
+Q8. What problem occurs in RNNs for long sequences?
+
+A. Overfitting
+B. Vanishing gradient
+C. Tokenization error
+D. Data leakage
+
+
+Q9. LSTM solves this problem using:
+
+A. Attention
+B. Gates
+C. Larger datasets
+D. Higher learning rate
+
+
+Q10. What is attention mechanism used for?
+
+A. Removing stopwords
+B. Focusing on important parts of input
+C. Reducing model size
+D. Tokenizing sentences
