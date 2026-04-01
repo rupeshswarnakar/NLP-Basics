@@ -98,3 +98,45 @@ king - man + woman ≈ queen
 - Lemmatization > Stemming  
 - NER ≠ POS  
 - Transformers use attention
+
+# MCQ
+```
+Q1. What is the main goal of NLP?
+
+A. Process images
+B. Understand and generate human language
+C. Store large datasets
+D. Train neural networks
+
+
+Q2. What does tokenization do?
+
+A. Removes stopwords
+B. Converts text into smaller units (tokens)
+C. Translates language
+D. Removes punctuation
+
+
+Q3. Which model captures word order?
+
+A. Bag of Words
+B. TF-IDF
+C. RNN
+D. Word Frequency
+
+
+Q4. What is a major limitation of Bag of Words?
+
+A. Too complex
+B. Ignores word order
+C. Cannot handle numbers
+D. Uses deep learning
+
+
+Q5. Word embeddings (like Word2Vec) help by:
+
+A. Removing words
+B. Assigning random values
+C. Representing words as dense vectors capturing meaning
+D. Counting frequencies
+```
