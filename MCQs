@@ -1,4 +1,4 @@
-❗ 1. Stemming vs Lemmatization
+1. Stemming vs Lemmatization
 - Stemming → Cuts words blindly  
   Example: "running" → "runn" ❌  
 - Lemmatization → Uses dictionary  
@@ -6,7 +6,7 @@
 
 👉 MCQ Trick: “Which gives real word?” → Lemmatization
 
-❗ 2. CBOW vs Skip-gram
+2. CBOW vs Skip-gram
 - CBOW → Context → predict word  
 - Skip-gram → Word → predict context  
 
@@ -14,7 +14,7 @@
 - Faster → CBOW  
 - Better for rare words → Skip-gram  
 
-❗ 3. BERT vs GPT
+3. BERT vs GPT
 - BERT → Bidirectional (left + right)  
 - GPT → Unidirectional (left → right)  
 
@@ -22,14 +22,14 @@
 - Understanding tasks → BERT  
 - Text generation → GPT  
 
-❗ 4. Perplexity
+4. Perplexity
 - Measures how confused model is  
 
 👉 MCQ Rule:  
 - LOW perplexity = GOOD model  
 - HIGH perplexity = BAD model  
 
-❗ 5. N-grams
+5. N-grams
 - Unigram = 1 word  
 - Bigram = 2 words  
 - Trigram = 3 words  
@@ -37,7 +37,7 @@
 👉 MCQ Trick:  
 “I love NLP” → Bigram = (I love), (love NLP)
 
-❗ 6. POS Tagging vs NER
+6. POS Tagging vs NER
 - POS Tagging → grammar (noun, verb)  
 - NER → real-world entities (person, location)  
 
@@ -46,50 +46,50 @@
 - POS = noun  
 - NER = organization  
 
-❗ 7. Static vs Contextual Embeddings
+7. Static vs Contextual Embeddings
 - Static (Word2Vec) → same meaning everywhere  
 - Contextual (BERT) → meaning depends on sentence  
 
 👉 MCQ Trick:  
 "bank" → different meanings → only BERT handles it
 
-❗ 8. Language Model Goal
+8. Language Model Goal
 👉 Predict next word  
 
 Example:  
 "I love pizza with ___" → cheese  
 
-❗ 9. Tokenization vs Sentence Segmentation
+9. Tokenization vs Sentence Segmentation
 - Tokenization → split into words  
 - Sentence segmentation → split into sentences  
 
-❗ 10. Stopwords
+10. Stopwords
 - Common words removed  
   Example: the, is, and  
 
 👉 MCQ Trick: improves efficiency but may remove meaning
 
-❗ 11. Word Embeddings
+11. Word Embeddings
 - Words → vectors  
 
 👉 MCQ Trick:  
 king - man + woman ≈ queen  
 
-❗ 12. Ambiguity Types
+12. Ambiguity Types
 - Lexical → word meaning  
 - Syntactic → sentence structure  
 
-❗ 13. Transformers
+13. Transformers
 - Use attention mechanism  
 - Do NOT process sequentially like RNN  
 
-❗ 14. Pretraining
+14. Pretraining
 - Train on large data first  
 - Then fine-tune  
 
 👉 MCQ Trick: does NOT require labeled data initially  
 
-🎯 LAST MINUTE REVISION
+LAST MINUTE REVISION
 - BERT → both directions  
 - GPT → left to right  
 - CBOW → context → word  
@@ -99,7 +99,7 @@ king - man + woman ≈ queen
 - NER ≠ POS  
 - Transformers use attention
 
-# MCQ
+MCQ
 Q1. What is the main goal of NLP?
 
 A. Process images
