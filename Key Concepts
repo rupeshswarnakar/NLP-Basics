@@ -1,22 +1,22 @@
 🧠 NLP Core Concepts (Quick Revision)
 
-📌 What is NLP?
+Q. What is NLP?
 Natural Language Processing (NLP) is a field of AI that enables computers to understand, interpret, and generate human language.
 
-❗ Challenges in NLP
+Challenges in NLP
 - **Ambiguity** → Same sentence can have multiple meanings  
 - **Sparsity** → Many sentences are unseen  
 - **Variation** → Same meaning, different wording  
 - **Context dependency** → Meaning depends on situation  
 
-🧩 Levels of NLP
+Levels of NLP
 1. **Phonetics** → Sound  
 2. **Morphology** → Word formation  
 3. **Syntax** → Grammar structure  
 4. **Semantics** → Meaning  
 5. **Discourse** → Context across sentences  
 
-🔄 NLP Pipeline
+NLP Pipeline
 1. Sentence Segmentation  
 2. Tokenization  
 3. Stopword Removal  
@@ -26,29 +26,29 @@ Natural Language Processing (NLP) is a field of AI that enables computers to und
 7. Named Entity Recognition (NER)  
 8. Coreference Resolution  
 
-🔤 Tokenization
+Tokenization
 Splitting text into words  
 Example:  
 "I love NLP" → ["I", "love", "NLP"]
 
-🧹 Stopword Removal
+Stopword Removal
 Removing common words like:  
 the, is, and
 
-✂️ Stemming vs Lemmatization
+Stemming vs Lemmatization
 - **Stemming** → Cuts word (may be incorrect)  
 - **Lemmatization** → Uses dictionary (correct form)  
 
 Example:  
 running → run (lemma)
 
-🏷️ POS Tagging
+POS Tagging
 Assigning grammar roles:  
 "She eats apple"  
 She → noun  
 eats → verb  
 
-🏢 Named Entity Recognition (NER)
+Named Entity Recognition (NER)
 Identifies entities:  
 - Person  
 - Location  
@@ -58,56 +58,56 @@ Example:
 "Rupesh lives in Indiana"  
 → Rupesh (Person), Indiana (Location)
 
-🔗 Coreference Resolution
+Coreference Resolution
 Finding what pronouns refer to  
 "Alice went home. She slept."  
 → She = Alice  
 
-📊 Language Models
+Language Models
 Predict next word in a sentence  
 
 Example:  
 "I love eating ___" → pizza  
 
-🔢 N-grams
+N-grams
 Sequence of words  
 - Unigram → 1 word  
 - Bigram → 2 words  
 - Trigram → 3 words  
 
-📉 Perplexity
+Perplexity
 Measures model performance  
 - Low perplexity = good model  
 - High perplexity = bad model  
 
-🔢 Word Embeddings
+Word Embeddings
 Convert words into numbers (vectors)  
 
 Example:  
 king - man + woman ≈ queen  
 
-🔄 Word2Vec Models
+Word2Vec Models
 - **CBOW** → Context → predict word  
 - **Skip-gram** → Word → predict context  
 
-🧠 Distributional Semantics
+Distributional Semantics
 Words used in similar context have similar meanings  
 
-🔁 Static vs Contextual Embeddings
+Static vs Contextual Embeddings
 - Static → same meaning always (Word2Vec)  
 - Contextual → meaning depends on sentence (BERT)  
 
-🤖 Transformers
+Transformers
 Modern NLP models using attention mechanism  
 
-🎯 BERT vs GPT
-- **BERT** → Reads both directions (understanding)  
-- **GPT** → Left to right (generation)  
+BERT vs GPT
+- BERT → Reads both directions (understanding)  
+- GPT → Left to right (generation)  
 
-📚 Pretraining
+Pretraining
 Model trained on large data, then fine-tuned for specific tasks  
 
-🚀 Summary
+Summary
 - NLP processes human language  
 - Pipeline prepares text for models  
 - Models learn patterns and meaning  
